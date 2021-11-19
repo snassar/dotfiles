@@ -8,6 +8,8 @@ This is a collection of configuration files I use.
 etc
 └── dracut.conf.d
     └── default.conf
+git
+└── config
 ```
 
 ## License
