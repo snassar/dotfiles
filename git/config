@@ -17,7 +17,7 @@
         email = samirnassar@example.com
 [remote "github-mirror"]
         url = git@github.com:snassar/dotfiles.git
-        fetch = +refs/heads/*:refs/remotes/github-mirror/*
+        mirror = true
 [remote "gitlab-mirror"]
         url = git@gitlab.com:samirnassar/dotfiles.git
-        fetch = +refs/heads/*:refs/remotes/gitlab-mirror/*
+        mirror = true
