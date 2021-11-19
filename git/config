@@ -1,0 +1,23 @@
+[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+[remote "origin"]
+        url = git@git.sr.ht:~samirnassar/dotfiles
+        fetch = +refs/heads/*:refs/remotes/origin/*
+        pushurl = git@github.com:snassar/dotfiles.git
+        pushurl = git@gitlab.com:samirnassar/dotfiles.git
+        pushurl = git@git.sr.ht:~samirnassar/dotfiles
+[branch "main"]
+        remote = origin
+        merge = refs/heads/main
+[user]
+        name = Samir Nassar
+        email = samirnassar@example.com
+[remote "github-mirror"]
+        url = git@github.com:snassar/dotfiles.git
+        fetch = +refs/heads/*:refs/remotes/github-mirror/*
+[remote "gitlab-mirror"]
+        url = git@gitlab.com:samirnassar/dotfiles.git
+        fetch = +refs/heads/*:refs/remotes/gitlab-mirror/*
