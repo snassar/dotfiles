@@ -2,6 +2,14 @@
 
 This is a collection of configuration files I use.
 
+## Index
+
+```
+etc
+└── dracut.conf.d
+    └── default.conf
+```
+
 ## License
 
 You can redistribute and/or modify these files unter the terms of the
